@@ -10,20 +10,20 @@ figure();
 plot(EEG);
 xlabel('4599 samples of 64 EEG signal'); ylabel('Voltage values of the EEG Signal [uV]');
 grid on;
-%%  Fig2 distribución de los datos con ruido
-figure();
-histogram(EEG);
-xlabel('EMG amplitude value [uV]'); ylabel('Number of events');
-grid on;
+% %%  Fig2 distribución de los datos con ruido
+% figure();
+% %histogram(EEG);
+% xlabel('EMG amplitude value [uV]'); ylabel('Number of events');
+% grid on;
 %% Fig3 grafica de frecuencia de los datos con ruido
-x=EEG;
-periodogram(x,rectwin(length(x)),length(x),Fs);
+% x=EEG;
+% periodogram(x,rectwin(length(x)),length(x),Fs);
 %% fig4 filtro respuesta de magnitud
 Fmin=7;
 Fmax=30;
 Hd=designfilt('bandpassiir','FilterOrder',20,'HalfPowerFrequency1',Fmin,'HalfPowerFrequency2',Fmax,'SampleRate',Fs);
 % xlabel('EMG amplitude value [uV]'); ylabel('Number of events');
- fvtool(Hd);
+ %fvtool(Hd);
 %% fig8 datos filtrada
 figure();
 ftemp=[];
@@ -32,12 +32,12 @@ for e=1:2 %electrodos
    g=filtfilt(Hd,EEG(:,e));
    ftemp(:,e)=g;
 end
-ftemp
+plot(ftemp)
 xlabel('32400 samples of the EMG signal'); ylabel('Voltage values of the EMG Signal [uV]');
 grid on;
 %% fig9 grafica de frecuencia de los datos filtrados
-% x=ftemp;
-% periodogram(x,rectwin(length(x)),length(x),Fs);
+x=ftemp;
+periodogram(x,rectwin(length(x)),length(x),Fs);
 
 %% fig10 distribucion de los datos filtrados
 % histogram(ftemp);
