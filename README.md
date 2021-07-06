@@ -1,4 +1,6 @@
-# SenalesEEG
+# EEG Signal's project
+##Introduction
+Se generó un estímulo
 Procesamiento y clasificación de senales EEG
 
 Borrar columnas
