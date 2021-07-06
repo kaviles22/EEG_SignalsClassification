@@ -1,6 +1,8 @@
 # EEG Signal's project
 
 ## Introduction
+Two types of visual stimuli were developed: based on frequency and evoked potential P300, data were collected from 9 subjects initially.
+
 ### Types of experiment
 - Color experiment
   - Frecuency based
@@ -15,5 +17,6 @@ The frecuencies used were 7hz, 9Hz, 11Hz and 13Hz in the case of the experiment 
 #### Evoked potential P300
 The stimulis oscillated at a random frecuency, then three of the squares disappeared and just one remained on the frame, in theory this generated the P300 stimuli.
 ![P300 experiment](static/P300.png)
-Se desarrollaron dos tipos de estímulos visuales: basado en frecuencia y potencial evocado P300, se recogieron los datos de 9 sujetos inicialmente.  
+
+ 
 Procesamiento y clasificación de senales EEG
