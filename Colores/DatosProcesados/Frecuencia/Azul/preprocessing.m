@@ -4,8 +4,9 @@ Fs=128;
 %% Fig1 data con armonicos
 %S=load('A01I1E1.mat'); EEG=S.b; %filtered
 %S=load('001I1E1.mat'); EEG=S.E1;%no filteres
-f = importdata('muestra0.csv')
-d = f.data; EEG = d(:,1);
+f = importdata('filtrado0.csv')
+d = f;
+EEG = d(:,1);
 figure();
 plot(EEG);
 xlabel('4599 samples of 64 EEG signal'); ylabel('Voltage values of the EEG Signal [uV]');
@@ -36,7 +37,7 @@ plot(ftemp)
 xlabel('32400 samples of the EMG signal'); ylabel('Voltage values of the EMG Signal [uV]');
 grid on;
 %% fig9 grafica de frecuencia de los datos filtrados
-x=ftemp;
+x=EEG(:,1:2);
 periodogram(x,rectwin(length(x)),length(x),Fs);
 
 %% fig10 distribucion de los datos filtrados
