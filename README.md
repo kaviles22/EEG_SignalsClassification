@@ -18,5 +18,3 @@ The frecuencies used were 7hz, 9Hz, 11Hz and 13Hz in the case of the experiment 
 The stimulis oscillated at a random frecuency, then three of the squares disappeared and just one remained on the frame, in theory this generated the P300 stimuli.
 ![P300 experiment](static/P300.png)
 
- 
-Procesamiento y clasificación de senales EEG
