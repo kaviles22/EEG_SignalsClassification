@@ -14,6 +14,6 @@ The frecuencies used were 7hz, 9Hz, 11Hz and 13Hz in the case of the experiment 
 ![Frecuency based experiment](static/frecuency.png)
 #### Evoked potential P300
 The stimulis oscillated at a random frecuency, then three of the squares disappeared and just one remained on the frame,in theory this generated the P300 stimuli.
-![P300 experiment](static/P300.png)
+![P300 experiment](static/P300.PNG)
 Se desarrollaron dos tipos de estímulos visuales: basado en frecuencia y potencial evocado P300, se recogieron los datos de 9 sujetos inicialmente.  
 Procesamiento y clasificación de senales EEG
