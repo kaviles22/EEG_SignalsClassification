@@ -11,7 +11,7 @@ Two experiments were designed: frecuency based and evoked potential P300, the co
 #### Frecuency based
 The frecuencies used were 7hz, 9Hz, 11Hz and 13Hz in the case of the experiment ran in colors those frecuencies were associated with the colors blue, red, green and purple, respectively, however in the second experiment all the stimuli were in white.
 ![Frecuency based experiment in color](static/frecuency.png)
-![Frecuency based experiment in white](static/frecuency_white.png)
+![Frecuency based experiment in white](static/frecuency_white.PNG)
 Se desarrollaron dos tipos de estímulos visuales: basado en frecuencia y potencial evocado P300, se recogieron los datos de 9 sujetos inicialmente.  
 Procesamiento y clasificación de senales EEG
 
