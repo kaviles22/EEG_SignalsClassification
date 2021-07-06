@@ -1,7 +1,11 @@
 # EEG Signal's project
 ## Introduction
 ### Types of experiment
-Two types of experiment were done, 
+- Color experiment
+  - Frecuency
+  - Evoked potential P300
+- Experiment in white
+  - Evoked potential P300
 ### Visual Stimuli
 Two experiments were designed: frecuency based and evoked potential P300, the codes were developed in Matlab 2020, using the open source library Psychtoolbox.
 #### Frecuency based
