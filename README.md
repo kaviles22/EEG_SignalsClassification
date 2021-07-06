@@ -1,4 +1,5 @@
 # EEG Signal's project
+
 ## Introduction
 ### Types of experiment
 - Color experiment
