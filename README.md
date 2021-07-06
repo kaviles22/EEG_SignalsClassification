@@ -2,10 +2,10 @@
 ## Introduction
 ### Types of experiment
 - Color experiment
-  - Frecuency
+  - Frecuency based
   - Evoked potential P300
 - Experiment in white
-  - Evoked potential P300
+  - Frecuency based
 ### Visual Stimuli
 Two experiments were designed: frecuency based and evoked potential P300, the codes were developed in Matlab 2020, using the open source library Psychtoolbox.
 #### Frecuency based
