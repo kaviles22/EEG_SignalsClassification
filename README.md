@@ -34,7 +34,7 @@ The experiments lasted approximately 11 minutes, the records were exported as cs
 - Experiment in white: [White Data](https://github.com/kaviles22/SenalesEEG/tree/main/Blanco/DatosBrutos)
 - 
 ## Data pre-processing 
-Once the data was exported we focused on processing the raw data files in order to only maintain the information in which we were going to focused, those rows were: ***MarkerValueInt*** (Label), ***EEG.O1*** and ***EEG.O2***. The data was divided into files, using the [pre-processing.ipynb](https://github.com/kaviles22/SenalesEEG/tree/main/src/Pre-Procesado.ipynb) file, each file represented a *temporary window*, which is understood as the time at which the subject was exposed to an specific stimuli, in this case each temporary window represented a 3 second recording. The files were categorized into the respective folders, as shown below.
+Once the data was exported we focused on processing the raw data files in order to only maintain the information in which we were going to focused, those rows were: ***MarkerValueInt*** (Label), ***EEG.O1*** and ***EEG.O2***. The data was divided into files, using the [pre-processing.ipynb](https://github.com/kaviles22/SenalesEEG/tree/main/src/Pre-Procesado.ipynb) file, each file represented a *temporary window*, which is understood as the time at which the subject was exposed to an specific stimuli, in this case each temporary window represented a 3 second recording. The files were categorized into the respective folders depending on their labels, as shown below.
 ![P300 experiment](static/files_division.PNG)
 
 
