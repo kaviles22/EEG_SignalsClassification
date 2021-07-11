@@ -41,6 +41,7 @@ Once the data was exported we focused on processing the raw data files in order 
 
 ### Signal processing
 After data categorization was made, some processing took place in order to improve future data analysis, different signal processing were applied, and each modified file was saved into a different sub-category or sub-folder.
+
 ![Folder organization (color experiment)](static/folder_organization(color).png)
 
 
