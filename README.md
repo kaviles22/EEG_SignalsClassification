@@ -3,6 +3,8 @@
 ## Introduction
 The following experiment aims to analyze EEG signals and classify them into four classes using AI techniques. During the execution of it we used Matlab, to design the stimulis, the EMOTIV EPOC headset, to register the electrodes' data and Python, for data processing. Initially the experiment was designed in different colors, then for experimentation purposes we tried it only in white.
 
+![Experiment flow diagram](static/flow_diagram.png)
+
 ### Types of experiment
 - Color experiment
   - Frecuency based
