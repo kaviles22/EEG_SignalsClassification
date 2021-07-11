@@ -1,7 +1,7 @@
 # EEG Signal's project
 
 ## Introduction
-Two types of visual stimuli were developed: based on frequency and evoked potential P300, data was collected from 9 subjects initially.
+The following experiment aims to analyze EEG signals and classify them into four classes using AI techniques. During the execution of it we used Matlab, to design the stimulis, the EMOTIV EPOC headset, to register the electrodes' data and Python, for data processing. Initially the experiment was designed in different colors, then for experimentation purposes we tried it only in white.
 
 ### Types of experiment
 - Color experiment
