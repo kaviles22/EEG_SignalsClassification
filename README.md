@@ -3,7 +3,7 @@
 ## Introduction
 The following experiment aims to analyze EEG signals and classify them into four classes using AI techniques. During the execution of it we used *Matlab*, to design the stimulis, the *Emotiv EPOC* headset, to register the electrodes' data and *Python*, for data processing. Initially the experiment was designed in different colors, then for experimentation purposes we tried it only in white. The experiment process was subdivided in four main stages for organization purposes, as shown below.
 
-[Experiment flow diagram](static/flow_diagram.PNG)
+![Experiment flow diagram](static/flow_diagram.PNG)
 
 ### Types of experiment
 - Color experiment
@@ -21,11 +21,11 @@ The stimulis oscillated at a random frecuency, then three of the squares disappe
 ![P300 experiment](static/P300.png)
 
 ## Data recording
-For data registration the ***Emotiv EPOC*** headset was used, it is a 14 channel wireless EEG headset that registers brain signals (in µV) through different softwares, in this project we  used the EMOTIV-PRO app, it comes with several features, however we only focused on the registration, labeling and data exportation. In the app's settings, the keys associated to the labels were configured as shown in the image below.
+For data registration the ***[Emotiv EPOC](https://emotiv.gitbook.io/epoc-user-manual/introduction-1/about#:~:text=The%20EMOTIV%20EPOC%2B%20is%20a%20portable%2C%20high%20resolution%2C,used%20for%20research%20applications%20and%20personal%20use%20only.)*** headset was used, it is a 14 channel wireless EEG headset with a sampling rate of 128 Hz, that registers brain signals (in µV) through different softwares, in this project we  used the EMOTIV-PRO app, it comes with several features, however we only focused on the registration, labeling and data exportation. In the app's settings, the keys associated to the labels were configured as shown in the image below.
 
 ![P300 experiment](static/labels_EMOTIV.png)
 
-As a first stage, we based our analysis on the responses of the occipital area of the brain, two electrodes were placed there: Occipital 1 (EEG.O1) and Occipital (EEG.O2).
+Although data from all the electrodes was collected and registered, as a first stage, we based our analysis only on the responses of the occipital area of the brain, two electrodes are placed there: Occipital 1 (EEG.O1) and Occipital (EEG.O2).
 
 ![Emotiv EPOC](https://www.researchgate.net/profile/Luis_Gonzalez-Abril/publication/305370349/figure/download/fig1/AS:385435709788162@1468906442608/Emotiv-EPOC-characteristics-and-sensors-configuration-a-10-20-International-system.png)
 
