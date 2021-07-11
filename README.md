@@ -23,7 +23,7 @@ The stimulis oscillated at a random frecuency, then three of the squares disappe
 ## Data recording
 For data registration the ***Emotiv EPOC*** headset was used, it is a 14 channel wireless EEG headset that registers brain signals (in µV) through different softwares, in this project we  used the EMOTIV-PRO app, it comes with several features, however we only focused on the registration, labeling and data exportation. In the app's settings, the keys associated to the labels were configured as shown in the image below.
 
-![P300 experiment](static/labels_EMOTIV.png)
+[P300 experiment](static/labels_EMOTIV.png)
 
 As a first stage, we based our analysis on the responses of the occipital area of the brain, two electrodes were placed there: Occipital 1 (EEG.O1) and Occipital (EEG.O2).
 
