@@ -44,4 +44,14 @@ After data categorization was made, some processing took place in order to impro
 
 ![Folder organization (color experiment)](static/folder_organization(color).png)
 
+### Raw Data
+This folder contains the raw data, as exported from Emotiv PRO app, no processing or filtering was done to this group of data.
+### Raw Data Outliers
+Outliers are aberrant values presented in the registered data, those values were replaced with the mean value of the respective row.
+### Raw Data Filtered
+A [*Butterworth filter*](https://en.wikipedia.org/wiki/Butterworth_filter) was applied, the frecuency range was set between 5 Hz and 30 Hz.
+### Raw Data Hilbert
+The [*Hilbert transform*](https://en.wikipedia.org/wiki/Hilbert_transform) was applied.
+### Raw Data Filtered & Hilbert
+The Hilbert transform was applied to the filtered data.
 
