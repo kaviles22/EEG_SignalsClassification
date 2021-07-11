@@ -21,19 +21,20 @@ The stimulis oscillated at a random frecuency, then three of the squares disappe
 ![P300 experiment](static/P300.png)
 
 ## Data recording
-For data registration the ***[Emotiv EPOC](https://emotiv.gitbook.io/epoc-user-manual/introduction-1/about#:~:text=The%20EMOTIV%20EPOC%2B%20is%20a%20portable%2C%20high%20resolution%2C,used%20for%20research%20applications%20and%20personal%20use%20only.)*** headset was used, it is a 14 channel wireless EEG headset with a sampling rate of 128 Hz, that registers brain signals (in µV) through different softwares, in this project we  used the EMOTIV-PRO app, it comes with several features, however we only focused on the registration, labeling and data exportation. In the app's settings, the keys associated to the labels were configured as shown in the image below.
+For data registration the [***Emotiv EPOC+ headset***](https://emotiv.gitbook.io/epoc-user-manual/introduction-1/about#:~:text=The%20EMOTIV%20EPOC%2B%20is%20a%20portable%2C%20high%20resolution%2C,used%20for%20research%20applications%20and%20personal%20use%20only.) was used, it is a 14 channel wireless EEG headset with a sampling rate of 128 Hz, that registers brain signals (in µV) through different softwares, in this project we  used the EMOTIV-PRO app, it comes with several features, however we only focused on the registration, labeling and data exportation. In the app's settings, the keys associated to the labels were configured as shown in the image below.
 
 ![P300 experiment](static/labels_EMOTIV.png)
 
-Although data from all the electrodes was collected and registered, as a first stage, we based our analysis only on the responses of the occipital area of the brain, two electrodes are placed there: Occipital 1 (EEG.O1) and Occipital (EEG.O2).
+Although data from all the electrodes was collected and registered, as a first stage, we based our analysis only on the responses of the occipital area of the brain, two electrodes are placed in that zone: Occipital 1 (EEG.O1) and Occipital (EEG.O2).
 
 ![Emotiv EPOC](https://www.researchgate.net/profile/Luis_Gonzalez-Abril/publication/305370349/figure/download/fig1/AS:385435709788162@1468906442608/Emotiv-EPOC-characteristics-and-sensors-configuration-a-10-20-International-system.png)
 
 The experiments lasted approximately 11 minutes, the records were exported as csv files:
 - Color experiment: [Color Data](https://github.com/kaviles22/SenalesEEG/tree/main/Colores/DatosBrutos) 
 - Experiment in white: [White Data](https://github.com/kaviles22/SenalesEEG/tree/main/Blanco/DatosBrutos)
-## Data
-### Data pre-processing 
-Once the data was exported we focused on processing the raw files in orer to only maintain the information in which we were going to focused, those rows were: Label, EEG.O1 and EEG.O2. The data was 
+- 
+## Data pre-processing 
+Once the data was exported we focused on processing the raw data files in order to only maintain the information in which we were going to focused, those rows were: ***MarkerValueInt*** (Label), ***EEG.O1*** and ***EEG.O2***. The data was divided into files, using the [pre-processing.ipynb](https://github.com/kaviles22/SenalesEEG/tree/main/src/Pre-Procesado.ipynb) file, each file represented a *temporary window*, which is understood as the time at which the subject was exposed to an specific stimuli, in this case each temporary window represented a 3 second recording. The files were categorized into the respective folders, as shown below.
+![P300 experiment](static/files_division.PNG)
 
 
