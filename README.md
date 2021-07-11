@@ -24,7 +24,7 @@ Emotiv EPOC headset is a 14 channel wireless EEG headset that registers brain si
 ![P300 experiment](static/labels_EMOTIV.png)
 
 As a first stage, we based our analysis on the responses of the occipital area of the brain, two electrodes were placed there: Occipital 1 (EEG.O1) and Occipital (EEG.O2).
-Format: ![  Emotiv EPOC](https://www.researchgate.net/profile/Luis_Gonzalez-Abril/publication/305370349/figure/download/fig1/AS:385435709788162@1468906442608/Emotiv-EPOC-characteristics-and-sensors-configuration-a-10-20-International-system.png)
+![Emotiv EPOC](https://www.researchgate.net/profile/Luis_Gonzalez-Abril/publication/305370349/figure/download/fig1/AS:385435709788162@1468906442608/Emotiv-EPOC-characteristics-and-sensors-configuration-a-10-20-International-system.png)
 
 The experiments lasted approximately 11 minutes, the records were exported as a csv file:
 - Color experiment: [GitHub](https://github.com/kaviles22/SenalesEEG/tree/main/Colores/DatosBrutos) 
