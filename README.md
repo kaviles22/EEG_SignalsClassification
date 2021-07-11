@@ -21,10 +21,6 @@ The stimulis oscillated at a random frecuency, then three of the squares disappe
 ### Emotiv EPOC
 Emotiv EPOC headset is a 14 channel wireless EEG headset that registers brain signals (µV) through different softwares, in this project we  used EMOTIV-PRO, the app comes with several features, however we only focused on the registration, labeling and data exportation. In the app's settings, the keys associated to the labels were configured as shoen in the following table.
 
-#### ![P300 experiment](static/labels_EMOTIV.png)
-
-<p align="center">
-  <img width="600" height="200" src="static/labels_EMOTIV.png">
-</p>
+![P300 experiment](static/labels_EMOTIV.png)
 
 
