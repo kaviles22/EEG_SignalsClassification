@@ -14,7 +14,7 @@ The following experiment aims to analyze EEG signals and classify them into four
 ## Visual stimuli designing
 Two experiments were designed: ***frecuency based*** and ***evoked potential P300***, the codes were developed in *Matlab 2020*, using the open source library [*Psychtoolbox*](http://psychtoolbox.org/download).
 ### Frecuency based
-The frecuencies used were 7hz, 9Hz, 11Hz and 13Hz, in the case of the experiment ran in color, those frecuencies were associated with the colors blue, red, green and purple, respectively, however in the second experiment all the stimuli were shown in white. Each square oscillated at a designated frecuency during 3 sec, while the others remained opaque and still, as shown in the figure.
+The frecuencies used were 7hz, 9Hz, 11Hz and 13Hz, in the case of the experiment ran in color, those frecuencies were associated with the colors red, blue, green and purple, respectively, however in the second experiment all the stimuli were shown in white. Each square oscillated at a designated frecuency during 3 sec, while the others remained opaque and still, as shown in the figure.
 ![Frecuency based experiment](static/frecuency.png)
 ### Evoked potential P300
 The stimulis oscillated at a random frecuency, then three of the squares disappeared and just one remained on the frame, in theory this generated the P300 stimuli.
@@ -41,5 +41,6 @@ Once the data was exported we focused on processing the raw data files in order 
 
 ### Signal processing
 After data categorization was made, some processing took place in order to improve future data analysis, different signal processing were applied, and each modified file was saved into a different sub-category or sub-folder.
+![Folder organization (color experiment)](static/folder_organization(color).png)
 
 
