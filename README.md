@@ -23,8 +23,10 @@ Emotiv EPOC headset is a 14 channel wireless EEG headset that registers brain si
 
 ![P300 experiment](static/labels_EMOTIV.png)
 
-The experiments lasted approximately 11 minutes, the records were exported as a csv file  [GitHub](https://github.com/kaviles22/SenalesEEG/tree/main/Colores/DatosBrutos)
-### Data()
+The experiments lasted approximately 11 minutes, the records were exported as a csv file:
+- Color experiment: [GitHub](https://github.com/kaviles22/SenalesEEG/tree/main/Colores/DatosBrutos) 
+- Experiment in white: [GitHub](https://github.com/kaviles22/SenalesEEG/tree/main/Blanco/DatosBrutos)
+### Data
 ##
 
 
