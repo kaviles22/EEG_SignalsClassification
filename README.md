@@ -1,7 +1,7 @@
 # EEG Signal's project
 
 ## Introduction
-Two types of visual stimuli were developed: based on frequency and evoked potential P300, data were collected from 9 subjects initially.
+Two types of visual stimuli were developed: based on frequency and evoked potential P300, data was collected from 9 subjects initially.
 
 ### Types of experiment
 - Color experiment
@@ -17,4 +17,9 @@ The frecuencies used were 7hz, 9Hz, 11Hz and 13Hz in the case of the experiment 
 #### Evoked potential P300
 The stimulis oscillated at a random frecuency, then three of the squares disappeared and just one remained on the frame, in theory this generated the P300 stimuli.
 ![P300 experiment](static/P300.png)
+
+### Emotiv EPOC
+Emotiv EPOC headset is a 14 channel wireless EEG headset that registers brain signals (µV) through different softwares, in this project we  used EMOTIV-PRO, the app comes with several features, however we only focused on the registration, labeling and data exportation. In the app's settings, the keys associated to the labels were configured as shoen in the following table.
+![P300 experiment](static/labels_EMOTIV.png)
+
 
