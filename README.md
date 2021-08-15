@@ -57,9 +57,9 @@ The Hilbert transform was applied to the filtered data.
 
 ## Feature extraction
 Once all the files were sorted into their respective folders, features were extracted from all the data. Two main ways were proposed to extract them:
-1. [**Tsfresh**](https://tsfresh.readthedocs.io/en/latest/) /n
+1. [**Tsfresh**](https://tsfresh.readthedocs.io/en/latest/) <br />
    Tsfresh is a python package which has differents methods to extract and analyze several features from a given data. 
-2. **Developing our own feature extraction algorithm**
+2. **Developing our own feature extraction algorithm** <br />
     We developed an algorithm to extract features of our choice:
     - Mean absolute value:
     - Mean absolute value - type I: 
