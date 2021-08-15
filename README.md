@@ -65,15 +65,21 @@ Once all the files were sorted into their respective folders, features were extr
     - Mean absolute value: <br />
 ![equation1](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%7Cx_%7Bi%7D%7C)
     - Mean absolute value - type I:<br /> 
-![equation2](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7Dw_%7Bi%7D%7Cx_%7Bi%7D%7C)
+![equation2](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7Dw_%7Bi%7D%7Cx_%7Bi%7D%7C%3B%20w_%7Bi%7D%20%3D%20%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%201%20%26%200.25%20%5Cleqslant%20i%20%5Cleqslant%200.75N%20%5C%5C%200.5%20%26%20otherwise%20%5Cend%7Bmatrix%7D%5Cright.)
     - Mean absolute value - type II:<br /> 
-![equation1](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7Dw_%7Bi%7D%7Cx_%7Bi%7D%7C)
+![equation3](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7Dw_%7Bi%7D%7Cx_%7Bi%7D%7C%3B%20w_%7Bi%7D%20%3D%20%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%201%20%26%200.25N%20%5Cleqslant%20i%20%5Cleqslant%200.75N%5C%5C%204i/N%20%26%20i%3C0.25N%20%5C%5C%204%28N%20-%20i%29/N%20%26%20otherwise%20%5Cend%7Bmatrix%7D%5Cright.)
     - Log Detection: 
+![equation4](https://latex.codecogs.com/gif.latex?exp%28%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5E%7BN%7Dlog_%7Be%7D%28%7Cx_%7Bi%7D%7C%29%29)
     - Median Absolute Value: 
+![equation5](https://latex.codecogs.com/gif.latex?median_%7Bi%7D%7Cx_%7Bi%7D%7C)
     - Variance: 
+![equation6](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN-1%7D%5Csum_%7Bi%3D1%7D%5E%7BN%7Dx_%7Bi%7D%5E%7B2%7D)
     - Mean Absolute Difference Value: 
+![equation7](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%7Cx_%7Bi%7D%7C)
     - Mean Frequency
+![equation8](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%7Cx_%7Bi%7D%7C)
     - Frecuency at maximum PSD:
-    - Variance of the Central Frequency:  
+    - Variance of the Central Frequency: 
+![equation9](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%7Cx_%7Bi%7D%7C)
     - Maximum PSD:
     - Amplitude Histogram:
