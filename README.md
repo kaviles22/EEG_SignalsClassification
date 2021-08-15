@@ -55,6 +55,21 @@ The [*Hilbert transform*](https://en.wikipedia.org/wiki/Hilbert_transform) was a
 ### Raw Data Filtered & Hilbert
 The Hilbert transform was applied to the filtered data.
 
-##Feature extraction
+## Feature extraction
 Once all the files were sorted into their respective folders, features were extracted from all the data. Two main ways were proposed to extract them:
-1. [Tsfresh](https://tsfresh.readthedocs.io/en/latest/) 
+1. [**Tsfresh**](https://tsfresh.readthedocs.io/en/latest/)
+   Tsfresh is a python package which has differents methods to extract and analyze several features from a given data. 
+2. **Developing our own feature extraction algorithm**
+    We developed an algorithm to extract features of our choice:
+    - Mean absolute value:
+    - Mean absolute value - type I: 
+    - Mean absolute value - type II: 
+    - Log Detection: 
+    - Median Absolute Value: 
+    - Variance: 
+    - Mean Absolute Difference Value: 
+    - Mean Frequency
+    - Frecuency at maximum PSD:
+    - Variance of the Central Frequency:  
+    - Maximum PSD:
+    - Amplitude Histogram:
