@@ -62,7 +62,7 @@ Once all the files were sorted into their respective folders, features were extr
 2. **Developing our own feature extraction algorithm** <br />
     We developed an algorithm to extract features of our choice:
     
-    - Mean absolute value:
+    - Mean absolute value: <br />
 ![equation1](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%7Cx_%7Bi%7D%7C)
     - Mean absolute value - type I: 
     - Mean absolute value - type II: 
