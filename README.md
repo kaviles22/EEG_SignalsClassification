@@ -55,3 +55,6 @@ The [*Hilbert transform*](https://en.wikipedia.org/wiki/Hilbert_transform) was a
 ### Raw Data Filtered & Hilbert
 The Hilbert transform was applied to the filtered data.
 
+##Feature extraction
+Once all the files were sorted into their respective folders, features were extracted from all the data. Two main ways were proposed to extract them:
+1. [Tsfresh](https://tsfresh.readthedocs.io/en/latest/) 
