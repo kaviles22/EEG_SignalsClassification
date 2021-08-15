@@ -75,11 +75,11 @@ Once all the files were sorted into their respective folders, features were extr
     - Variance:<br />  
 ![equation6](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN-1%7D%5Csum_%7Bi%3D1%7D%5E%7BN%7Dx_%7Bi%7D%5E%7B2%7D)
     - Mean Absolute Difference Value:<br />  
-![equation7](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%7Cx_%7Bi%7D%7C)
+![equation7](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN-1%7D%5Csum_%7Bi%3D1%7D%5E%7BN-1%7D%5CDelta%20_%7Bi%7D)
     - Mean Frequency: <br /> 
-![equation8](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%7Cx_%7Bi%7D%7C)
+![equation8](https://latex.codecogs.com/gif.latex?%28%5Csum_%7Bb%3D1%7D%5E%7BM%7Df_%7Bb%7DP_%7Bb%7D%29/%28%5Csum_%7Bb%3D1%7D%5E%7BM%7DP_%7Bb%7D%29)
     - Frecuency at maximum PSD: <br /> 
     - Variance of the Central Frequency:<br />  
-![equation9](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%20%3D%201%7D%5E%7BN%7D%7Cx_%7Bi%7D%7C)
+![equation9](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BF_%7Bmean%7D%7D%20%5Csum_%7Bb%3D1%7D%5E%7BM%7DP_%7Bb%7D%28f_%7Bb%7D-f_%7Bc%7D%29%5E%7B2%7D)
     - Maximum PSD:
     - Amplitude Histogram:
