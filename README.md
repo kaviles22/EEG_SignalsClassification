@@ -61,6 +61,7 @@ Once all the files were sorted into their respective folders, features were extr
    Tsfresh is a python package which has differents methods to extract and analyze several features from a given data. 
 2. **Developing our own feature extraction algorithm** <br />
     We developed an algorithm to extract features of our choice:
+    
     - Mean absolute value:
     - Mean absolute value - type I: 
     - Mean absolute value - type II: 
