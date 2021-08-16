@@ -54,7 +54,8 @@ A [*Butterworth filter*](https://en.wikipedia.org/wiki/Butterworth_filter) was a
 The [*Hilbert transform*](https://en.wikipedia.org/wiki/Hilbert_transform) was applied.
 ### Raw Data Filtered & Hilbert
 The Hilbert transform was applied to the filtered data.
-
+## Data augmentation
+Data augmentation was applied in order to increase the amount of data. White Noise was applied to each file 
 ## Feature extraction
 Once all the files were sorted into their respective folders, features were extracted from all the data. Two main ways were proposed to extract them:
 1. [**Tsfresh**](https://tsfresh.readthedocs.io/en/latest/) <br />
@@ -81,5 +82,7 @@ Once all the files were sorted into their respective folders, features were extr
     - Frecuency at maximum PSD: <br /> 
     - Variance of the Central Frequency:<br />  
 ![equation9](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BF_%7Bmean%7D%7D%20%5Csum_%7Bb%3D1%7D%5E%7BM%7DP_%7Bb%7D%28f_%7Bb%7D-f_%7Bc%7D%29%5E%7B2%7D)
-    - Maximum PSD:
-    - Amplitude Histogram:
+    - Maximum PSD
+    - Amplitude Histogram
+## Classification
+
