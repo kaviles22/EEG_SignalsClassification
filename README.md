@@ -55,7 +55,10 @@ The [*Hilbert transform*](https://en.wikipedia.org/wiki/Hilbert_transform) was a
 ### Raw Data Filtered & Hilbert
 The Hilbert transform was applied to the filtered data.
 ## Data augmentation
-Data augmentation was applied in order to increase the amount of data. White Noise was applied to each file 
+Data augmentation was applied in order to increase the amount of data. White Noise was applied to each file, with different amplitude (eg: 0.5, 1, 5, etc). In order for the classification not to be affected, the following procedure was followed:
+1. Data was divided into 70%, 15% and 15%, training, validation and testing data, respectively.
+2. Data augmentation was done only for the training data.
+Then, features were extracted from all the files
 ## Feature extraction
 Once all the files were sorted into their respective folders, features were extracted from all the data. Two main ways were proposed to extract them:
 1. [**Tsfresh**](https://tsfresh.readthedocs.io/en/latest/) <br />
@@ -84,5 +87,16 @@ Once all the files were sorted into their respective folders, features were extr
 ![equation9](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7BF_%7Bmean%7D%7D%20%5Csum_%7Bb%3D1%7D%5E%7BM%7DP_%7Bb%7D%28f_%7Bb%7D-f_%7Bc%7D%29%5E%7B2%7D)
     - Maximum PSD
     - Amplitude Histogram
+## Data Normalization
+To normalize the data, first we fit the scaler to the training data, then the same scaler was used to transform validation and testing data (in order to transform val and test data with training data minimum and maximum values).
+- Training Data: Normalization was done by using  [*preprocessing.MinMaxScaler*](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#:~:text=class%20sklearn.preprocessing.%20MinMaxScaler%28feature_range%3D0%2C%201%2C%20%2A%2C%20copy%3DTrue%2C%20clip%3DFalse%29%20%5Bsource%5D,the%20training%20set%2C%20e.g.%20between%20zero%20and%20one.). Specifically the [*fit_transform*](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler.fit_transform) method was used, which fits the scaler to the data (saving the minimum and maximum values) an dthen transforms the data.
+- Validation and testing data: this data was normalized by using th minimum and maximum values. Specifically the [*transform*](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler.transform) method was used, which **only transforms the data**.
 ## Classification
+For experimentation purposes we tried out binary classification between all the classes: {7Hz, 9Hz, 11Hz, 13Hz, baseline}. <br />
+-XGBoost
+-Random Forest
+-Support vector machine (SVM)
+-K-nearest Neighbors (KNN)
+-Multilayer perceptron (MLP)
+
 
